@@ -11,7 +11,7 @@ class cuentaBancaria {
 
     get saldo() {
         return this.#saldo;
-    }
+    };
 
     set saldo(monto) {
         if (monto >= 0) {
@@ -19,8 +19,14 @@ class cuentaBancaria {
         } else {
             console.log("El saldo no puede ser negativo, se espera ser un número real positivo :)");
         }
-    }
+    };
 
+
+
+    // set saldo(monto){
+
+        
+    // }
     depositar (monto) {
         if (monto > 0) {
             this.#saldo += monto;
