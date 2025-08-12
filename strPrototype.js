@@ -4,7 +4,7 @@ String.prototype.concatenarPalabra = function(palabra) {
 
 }
 
-const holi = "Hola cara de bola"
+const holi = "Hola"
 const holi2 = holi.concatenarPalabra("mandioca")
 
 console.log(holi2)
